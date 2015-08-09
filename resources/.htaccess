@@ -1,0 +1,2 @@
+AuthName "CS Learning Group"
+AuthUserFile "/home2/fjvfouco/.htpasswds/public_html/cslg/passwd"

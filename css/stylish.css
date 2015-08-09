@@ -1,0 +1,356 @@
+/*
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+html {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url(../img/chiquito-optimized.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.btn-primary {
+    border-color: #bf0a0a;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #bf0a0a;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #407EB0;
+    color: #fff;
+    background-color: #407EB0;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #bf0a0a;
+    background-color: #bf0a0a;
+}
+
+.btn-primary .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #bf0a0a;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #bf0a0a
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #407EB0;
+    color: #fff;
+    background-color: #407EB0;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-xl .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.dropdown-bar {
+    position: relative;
+}
+
+.drop-nav {
+    position: absolute;
+    display: none;
+}
+
+.drop-nav li {
+    list-style-type: disc;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.dropdown-bar:hover > .drop-nav {
+    display: block;
+}
+
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+/* Name in top left corner */
+.navbar-default .navbar-brand {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+/* Hover over name in left corner */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #888;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+/* Navbar button color */
+.navbar-default .navbar-toggle {
+    border-color: #222;
+    background-color: #222;
+}
+
+
+/* Navbar icon color */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #222;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+
+/* Hover over [About, Portfolio, Contact, More] */
+.navbar-default .nav > .main-links a:hover,
+.navbar-default .nav > .main-links a:focus {
+    color: #fff;
+    outline: 0;
+    border-bottom: 4px solid #fff;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+
+/* Hover over [About, Portfolio, Contact, More] */
+.navbar-shrink .nav > .main-links a:hover,
+.navbar-shrink .nav > .main-links a:focus {
+    color: #888;
+    border-bottom: none;
+}
+
+/* Hover over [More] */
+.navbar-default .nav > .dropdown-bar a:hover,
+.navbar-default .nav > .dropdown-bar a:focus {
+    color: #fff;
+    outline: 0;
+}
+
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #bf0a0a;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #407EB0;
+}
+
+@media(min-width:768px) {
+
+    body {
+        overflow-x: hidden;
+        font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        background: url(../img/chiquito-optimized.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: rgba(34, 34, 34, 0.8);
+    }
+
+    .navbar-default.navbar-shrink .dropdown-bar:hover > .drop-nav {
+        display: block;
+        margin-top: 10%;
+        padding-right: 100%;
+        background-color: rgba(34, 34, 34, 0.8);
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: transparent;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+    color: #fff;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 100%;
+    outline: 0;
+    color: #fff;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+a .fa-github{ color: #000; }
+a .fa-linkedin{ color: #4875B4;}
+a .fa-stack-overflow { color: #fe7a15;}
+a .fa-twitter{ color: #55acee;}
+a .fa-google-plus{ color: #fff;}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #fed136;
+}
