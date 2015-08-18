@@ -6,7 +6,7 @@
 
 
 ## About
-fjv4.com is my personal site, which contains information about my interests, my portfolio, and has a built-in contact form made using the PHP mail function.
+fjv4.com is my personal site.
 
 This site uses [bootstrap](http://getbootstrap.com) to help create a responsive, clean design.
 
