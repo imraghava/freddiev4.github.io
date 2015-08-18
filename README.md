@@ -12,7 +12,7 @@ This site uses [bootstrap](http://getbootstrap.com) to help create a responsive,
 
 
 ## Note
-This repository is a re-design of my personal website, and was initialized at the 75% completion mark on GitHub; `v2`. The original site design can be found in the repository [here](https://github.com/FreddieV4/fjv4com/tree/master/OLD%20SITE/fjv4com-v1). 
+This repository is a re-design of my personal website, and was initialized at the 75% completion mark on GitHub; `v3`. The original site design can be found in the repository [here](https://github.com/FreddieV4/fjv4com/tree/master/OLD%20SITE/fjv4com-v1). 
 
 
 ## License
