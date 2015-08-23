@@ -2,8 +2,6 @@
 
 [fjv4.com](fjv4.com) was created, and is maintained, by **Freddie Vargus**
 
-* [Twitter Profile](https://twitter.com/Freddie_V4)
-
 
 ## About
 fjv4.com is my personal site.
