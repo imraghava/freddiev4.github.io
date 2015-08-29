@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Fonts"
-AuthUserFile "/home2/fjvfouco/.htpasswds/public_html/fonts/passwd"
-require valid-user
