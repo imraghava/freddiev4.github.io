@@ -334,15 +334,6 @@ a .fa-twitter{ color: #55acee;}
 a .fa-google-plus{ color: #fff;}
 a .fa-reddit{ color: #5f99cf;}
 
-::-moz-selection {
-    text-shadow: none;
-    background: #fed136;
-}
-
-::selection {
-    text-shadow: none;
-    background: #fed136;
-}
 
 img::selection {
     background: 0 0;
@@ -350,8 +341,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #fed136;
 }
