@@ -152,6 +152,7 @@ span.text-muted {
 
 @media(min-width:768px) {
     .navbar-default {
+        color: #fff;
         padding: 25px 0;
         border: 0;
         background-color: transparent;
