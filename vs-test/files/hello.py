@@ -1,3 +1,6 @@
+# Author: FreddieV4
+# File: hello.py
+
 class Hello():
 
     def __init__(self, name):
