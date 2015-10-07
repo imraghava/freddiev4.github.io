@@ -1173,6 +1173,62 @@ body {
   content: "\f121";
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: transparent;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 100%;
+  outline: 0;
+  color: #fff;
+  background-color: transparent;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+a .fa-github {
+  color: #000;
+}
+
+a .fa-linkedin {
+  color: #4875B4;
+}
+
+a .fa-stack-overflow {
+  color: #fe7a15;
+}
+
+a .fa-twitter {
+  color: #55acee;
+}
+
+a .fa-google-plus {
+  color: #222;
+}
+
+
 /*** uncss> filename: http://fonts.googleapis.com/css?family=Montserrat:400,700 ***/
 
 @font-face {
@@ -1217,4 +1273,15 @@ body {
   font-style: normal;
   font-weight: 700;
   src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(http://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJZ_TkvowlIOtbR7ePgFOpF4.ttf) format('truetype');
+}
+
+table {
+  width: 100%
+}
+thead {
+  text-align: center;
+}
+
+th {
+  padding: 10px;
 }
