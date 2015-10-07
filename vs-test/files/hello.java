@@ -1,3 +1,6 @@
+// Author: FreddieV4
+// File: hello.java
+
 class Hello {
 	
 	public static void main(String[] args) {
