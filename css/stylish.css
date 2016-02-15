@@ -337,6 +337,13 @@ ul ul {
   }
 }
 
+@media (max-width:500px) {
+  .navbar>.container .navbar-brand {
+    margin-left: -15px;
+    color: #fff;
+  }
+}
+
 .navbar-nav {
   margin: 7.5px -15px;
 }
