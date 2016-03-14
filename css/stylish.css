@@ -592,8 +592,8 @@ ul.social-buttons li a:active {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-a .fa-github {
-  color: #000;
+a .fa-github-alt {
+  color: #222;
 }
 
 a .fa-linkedin {
