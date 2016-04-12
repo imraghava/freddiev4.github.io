@@ -590,6 +590,7 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
 }
 
 a .fa-github-alt {
@@ -611,6 +612,14 @@ a .fa-twitter {
 a .fa-google-plus {
   color: #fff;
 }
+
+a .kaggle {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  color: #20beff;
+  font-size: 1.2em;
+}
+
 
 img::-moz-selection {
   background: 0 0;
